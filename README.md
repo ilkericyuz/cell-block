@@ -36,9 +36,10 @@ An Microsoft Excel Class Module which lets you define a cell block as a table an
       Range(cb.firstCell, cb.lastCell).Select
       
 Example:
-         Date        A   B   C   D
-         20170101    1   2   3   ronaldinho
-         20170102   [4]  5   6   messi
-         20170103    7   8   9   c. ronaldo
+    
+      ' Date        A   B   C   D
+      ' 20170101    1   2   3   ronaldinho
+      ' 20170102   [4]  5   6   messi
+      ' 20170103    7   8   9   c. ronaldo
 
-         As 4 is selected, activeRowCells("D") gives you messi, activeRowCells("C") gives you 6
+      ' As 4 is selected, activeRowCells("D") gives you messi, activeRowCells("C") gives you 6
